@@ -21,6 +21,12 @@
 .btn:hover{
     background-color: darkgoldenrod;
 }
+.title-color{
+    color: #001931;
+}
+.description-color{
+    color: #627382;
+}
 
 
 /* navbar styles */
@@ -109,4 +115,46 @@ ul > li{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* notes styles */
+.notes-container{
+    margin-bottom: 120px;
+}
+.notes-heading{
+    text-align: center;
+    margin-bottom: 44px;
+}
+.notes-title{
+    font-weight: bold;
+    font-size: 48px;
+    margin-bottom: 16px;
+    padding-top: 60px;
+}
+.cards-container{
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+.cards{
+    max-width: 300px;
+    height: 250px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.26);
+    padding: 24px;
+    text-align: center;
+}
+.card-pic{
+    background-color: #F95555;
+    padding: 14px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.card-title{
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+.card-description{
+    line-height: 20px;
 }
