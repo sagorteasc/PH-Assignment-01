@@ -170,7 +170,6 @@
     gap: 60px;
     margin: 0 auto;
     margin-bottom: 120px;
-    width: 80%;
 }
 .brain-header{
     font-weight: 500;
@@ -250,8 +249,11 @@ footer{
     background-color: white;
     border-radius: 100%;
     margin-right: 16px;
-    width: 20px;
-    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+    height: 25px;
 }
 hr{
     max-width: 80%;
