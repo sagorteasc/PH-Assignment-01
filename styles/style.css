@@ -58,7 +58,7 @@
 
 /* hero styles */
 .hero{
-    background-image: url(/assets/hero-bg.png);
+    background-image: url(../assets/hero-bg.png);
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
@@ -168,7 +168,9 @@
     align-items: center;
     justify-content: center;
     gap: 60px;
+    margin: 0 auto;
     margin-bottom: 120px;
+    width: 80%;
 }
 .brain-header{
     font-weight: 500;
@@ -195,6 +197,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
     margin-bottom: 170px;
 }
 .access-title{
