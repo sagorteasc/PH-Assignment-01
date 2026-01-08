@@ -59,6 +59,8 @@
 /* hero styles */
 .hero{
     background-image: url(/assets/hero-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 100%;
 }
 .hero-container{
@@ -75,6 +77,7 @@
     display: flex;
     gap: 6px;
     justify-content: center;
+    align-items: center;
     margin-bottom: 16px;
 }
 .hero-title{
@@ -234,13 +237,17 @@ footer{
     color: white;
     margin-bottom: 16px;
 }
+.icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .icon{
     background-color: white;
-    border-radius: 50%;
+    border-radius: 100%;
     margin-right: 16px;
-    width: 25px;
-    height: 25px;
-    padding-top: 5px;
+    width: 20px;
+    height: 20px;
 }
 hr{
     max-width: 80%;
