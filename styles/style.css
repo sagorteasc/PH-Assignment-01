@@ -197,6 +197,10 @@
     flex-direction: column;
     align-items: center;
     width: 80%;
+    background-color: #EEE9D4;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-radius: 12px;
     margin: 0 auto;
     margin-bottom: 170px;
 }
